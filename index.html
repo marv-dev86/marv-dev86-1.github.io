@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+        <!-- Libreria JQUERY -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,700;1,600&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/estilos.css">
+
+    <title>Zapato loco</title>
+</head>
+<body>  
+<!-- inicia nav -->
+    <nav id="navhover">
+        <div>
+            <ul class="py-3">
+                <li class="me-3 "> <a href="" id="ofertas">Ofertas</a></li>
+                <li class="me-3"> <a href="" id="hombres">Hombres</a> </li>
+                <li class="me-3"> <a href="" id="mujeres">Mujeres</a></li>
+                <li> <a href="" id="cerrar">Cuidado de zapatos</a></li>
+            </ul>
+        </div>
+
+        <div class="contenido-ofertas cerrar ">
+          
+                <div class="row">
+                    <div class="col-md-3 "><a href=""><img src="imgs/oferta1.jpg" alt=""></a></div>                   
+                    <div class="col-md-3 "><a href=""><img src="imgs/oferta2.jpg" alt=""></a></div>
+                    <div class="col-md-3 "><a href=""><img src="imgs/oferta3.jpg" alt=""></a></div>
+                    <!-- <div class="col-md-3 "><a href=""><img src="imgs/oferta4.jpg" alt=""></a></div> -->
+                </div>
+                    
+        </div>
+
+        <div class="contenido-hombres cerrar">
+          
+                <div class="row">
+                    <div class="col-md-3 "><a href=""><img src="imgs/hombres1.jpg" alt=""></a></div>                   
+                    <div class="col-md-3 "><a href=""><img src="imgs/hombres2.jpg" alt=""></a></div>
+                    <div class="col-md-3 "><a href=""><img src="imgs/hombres3.jpg" alt=""></a></div>
+                    <div class="col-md-3 "><a href=""><img src="imgs/hombres4.jpg" alt=""></a></div>
+                </div>
+              
+        </div>
+
+        <div class="contenido-mujeres cerrar">
+          
+          <div class="row">
+              <div class="col-md-3 "><a href=""><img src="imgs/mujeres1.jpg" alt=""></a></div>                   
+              <div class="col-md-3 "><a href=""><img src="imgs/mujeres2.jpg" alt=""></a></div>
+              <div class="col-md-3 "><a href=""><img src="imgs/mujeres3.jpg" alt=""></a></div>
+              <div class="col-md-3 "><a href=""><img src="imgs/mujeres4.jpg" alt=""></a></div>
+          </div>
+        
+  </div>
+
+
+
+    </nav>
+<!-- fin del nav     -->
+   
+
+    <!-- corrusel -->
+
+    <div id="carouselExampleFade" class="carousel slide carousel-fade  " data-bs-ride="carousel">
+
+       
+
+
+        <div class="carousel-inner">            
+          <div class="carousel-item active">           
+
+            
+
+            <img src="imgs/slider1.jpg" class="d-block w-100" alt="...">
+
+            <div class="carousel-caption d-none d-md-block bg-caption">
+                <h5>Primer etiqueta</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <img src="imgs/slider2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block " >
+                <h5>Segunda etiqueta</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <img src="imgs/slider3.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Tercera etiqueta</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </a>
+      </div>    
+
+<!-- fin carrusel       -->
+
+<!-- productos -->
+<div class="container mt-5">
+
+      <p class="encabezadoproductos"> Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+      <p class="subtituloproductos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, quos impedit suscipit aut id accusantium!</p>
+
+<!-- primer fila -->
+      <div class="row">
+
+                    <div class="card col-lg-6">
+                        <div class="card-body">
+                                <img src="imgs/hombres1.jpg" alt="" class="card-img">
+                                <p class="card-text">Todo para hombres</p>
+                                <a href="" class="btn btn-warning">COMPRAR</a>
+                        </div>
+
+                    </div>
+
+                    <div class="card col-lg-6">
+                      <div class="card-body">
+                              <img src="imgs/hombres2.jpg" alt="" class="card-img ">
+                              <p class="card-text">Todo para hombres</p>
+                              <a href="" class="btn btn-warning">COMPRAR</a>
+                      </div>
+
+                  </div>
+
+                  
+        
+
+
+
+      </div>
+
+<!-- segunda fila       -->
+
+          <p class="intermedio mt-5"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero cum consequuntur qui, aspernatur delectus consequatur velit provident nobis necessitatibus? Eaque ducimus fuga distinctio ea natus minus repellendus est culpa quod.</p>
+
+
+<div class="row mt-5">
+  
+                      <div class="card col-lg-6">
+                        <div class="card-body">
+                                <img src="imgs/hombres3.jpg" alt="" class="card-img">
+                                <p class="card-text">Todo para hombres</p>
+                                <a href="" class="btn btn-warning">COMPRAR</a>
+                        </div>
+
+                      </div>
+
+                      <div class="card col-lg-6">
+                        <div class="card-body">
+                                <img src="imgs/hombres4.jpg" alt="" class="card-img">
+                                <p class="card-text">Todo para hombres</p>
+                                <a href="" class="btn btn-warning">COMPRAR</a>
+                        </div>
+
+</div>
+
+</div>
+
+<!-- tercer fila -->
+      <div class="row mt-5">
+
+                        <div class="card col-lg-3">
+                            <div class="card-body">
+                                    <img src="imgs/mujeres1.jpg" alt="" class="card-img">
+                                    <p class="card-text">Todo para hombres</p>
+                                    <a href="" class="btn btn-warning">COMPRAR</a>
+                            </div>
+
+                        </div>
+
+                        <div class="card col-lg-3">
+                          <div class="card-body">
+                                  <img src="imgs/mujeres2.jpg" alt="" class="card-img">
+                                  <p class="card-text">Todo para hombres</p>
+                                  <a href="" class="btn btn-warning">COMPRAR</a>
+                          </div>
+
+                      </div>
+
+                      <div class="card col-lg-3">
+                        <div class="card-body">
+                                <img src="imgs/mujeres3.jpg" alt="" class="card-img">
+                                <p class="card-text">Todo para hombres</p>
+                                <a href="" class="btn btn-warning">COMPRAR</a>
+                        </div>
+
+                      </div>
+
+                      <div class="card col-lg-3">
+                        <div class="card-body">
+                                <img src="imgs/mujeres4.jpg" alt="" class="card-img">
+                                <p class="card-text">Todo para hombres</p>
+                                <a href="" class="btn btn-warning">COMPRAR</a>
+                        </div>
+
+    </div>
+
+
+
+
+</div>
+
+
+
+
+</div>
+
+<!-- fin del contenedor  -->
+
+<!-- inicia pie de pagina -->
+
+
+      <div class="piePagina">
+
+           <div >
+                      <p> <h5> About US</h2>
+                      
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium sed adipisci reiciendis impedit labore excepturi. Veritatis id eveniet, pariatur cumque amet provident quibusdam sapiente quisquam, possimus, deserunt eaque aliquid natus!
+                      </p>
+           </div>
+
+            <div >
+                    <p>
+                      <h5>Direccion</h2>
+                      local 102 
+                      Centro Comercial los alamos
+                      <br>
+                      zona 18, ciudad Guatemala
+                    </p>
+            </div>
+
+
+
+           <div >
+                  <p>
+                    <h5>Contacto</h2>
+                    <a href="">email US</a>
+                    <br>
+                    <span>+502 3621-6234</span>
+                  </p>
+           </div>
+
+           <div >
+                    <p >
+                      <h5>Siguenos!</h2>
+                      <a href=""> Instagram</a>
+                      <br>
+                      <a href="">Facebook </a>
+                    </p>
+           </div>
+
+      </div>
+
+
+
+
+
+
+ <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+    <script src="js/core.js"></script>
+    
+</body>
+
+
+
+</html>
